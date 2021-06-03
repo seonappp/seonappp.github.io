@@ -1,0 +1,39 @@
+html {width: 100%; height: 100%;}
+body {position: relative; height: 100%; font-family: "Noto Sans KR", "Malgun Gothic", sans-serif; font-weight: 400; font-size: 16px; color: #222; letter-spacing: -.6px; word-break: keep-all; line-height: 1; -webkit-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-overflow-scrolling: touch; background-color: #f1f5f8; -ms-touch-action:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;outline:none}
+body, header, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, table, tr, th, td, a, input, span, section, article {margin: 0; padding: 0; box-sizing: border-box; word-break: keep-all;}
+ul, ol, li {list-style: none;}
+img, fieldset {border: none; vertical-align: top;}
+em {font-style: normal;}
+legend,caption {position: absolute; top: 0; left: 0; z-index: -1; color: transparent; width: 0; height: 0;}
+textarea,button {vertical-align: middle;}
+textarea { color: #222; resize: none; overflow-y: auto; -ms-overflow-style: auto;}
+select {width: 100%; font-size: 14px; font-family: "Noto Sans KR", "Malgun Gothic", sans-serif; font-weight: 300; color: #555; vertical-align: middle; letter-spacing: -.75px; border: 0; outline: 0; background: transparent; -webkit-appearance: none; appearance: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+select::-ms-expand {display: none;}
+input, textarea {width: 100%; font-size: 14px; font-family: "Noto Sans KR", "Malgun Gothic", sans-serif; font-weight: 400; color: #222; vertical-align: middle; letter-spacing: -.6px; border: 0; outline: 0; background: transparent; -webkit-appearance: none; appearance: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+option {padding: 10px;}
+input[type="radio"], input[type="checkbox"] {padding: 0; height: auto; border: 0; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+input[type=text]::-ms-clear {display: none;}
+input[type=password] {font-family: 'pass', 'Roboto', Helvetica, Arial, sans-serif !important; font-size: 16px !important;} /* 2021-02-04 password ios 에서 원 모양 크기 제어 위해 추가 (ios에서 크게 나오는 문제) */
+input::-webkit-input-placeholder {font-family: "Noto Sans KR"; font-weight: 300; font-size: 14px; color: #555; transition: color .2s ease;}
+input:-ms-input-placeholder {font-family: "Noto Sans KR"; font-weight: 300; font-size: 14px; color: #555; transition: color .2s ease;}
+input::-ms-input-placeholder {font-family: "Noto Sans KR"; font-weight: 300; font-size: 14px; color: #555; transition: color .2s ease;}
+input::placeholder {font-family: "Noto Sans KR"; font-weight: 300; font-size: 14px; color: #555; transition: color .2s ease;}
+textarea::-webkit-input-placeholder {font-family: "Noto Sans KR"; font-weight: 300; font-size: 14px; color: #999; transition: color .2s ease;}
+textarea:-ms-input-placeholder {font-family: "Noto Sans KR"; font-weight: 300; font-size: 14px; color: #999; transition: color .2s ease;}
+textarea::-ms-input-placeholder {font-family: "Noto Sans KR"; font-weight: 300; font-size: 14px; color: #999; transition: color .2s ease;}
+textarea::placeholder {font-family: "Noto Sans KR"; font-weight: 300; font-size: 14px; color: #999; transition: color .2s ease;}
+input::-ms-clear,input::-ms-reveal{	display:none;width:0;height:0;}
+input::-webkit-search-decoration,input::-webkit-search-cancel-button,input::-webkit-search-results-button,input::-webkit-search-results-decoration{display:none;}
+input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus,input:-webkit-autofill:active {transition: background-color 5000s ease-in-out 0s;-webkit-transition: background-color 9999s ease-out;-webkit-box-shadow: 0 0 0px 1000px white inset !important;-webkit-text-fill-color: #222 !important;}
+.hide-holder:focus::-webkit-input-placeholder {color: transparent;}
+.hide-holder:focus:-ms-input-placeholder {color: transparent;}
+.hide-holder:focus::-ms-input-placeholder {color: transparent;}
+.hide-holder:focus::placeholder {color: transparent;}
+a {text-decoration: none; color: #555;}
+table {width: 100%; border-collapse: collapse;}
+button {overflow: visible; padding: 0; margin: 0; font-size: 16px; font-family: "Noto Sans KR", "Malgun Gothic", sans-serif; font-weight: 400; white-space: nowrap; border: none; cursor: pointer; background: none; outline: none;}
+button:active {outline: none;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {display: block; position: relative;}
+body.dimd,body.short-list,body.no-scroll {overflow: hidden;}
+html.dimd,html.short-list,html.no-scroll {overflow: hidden;}
